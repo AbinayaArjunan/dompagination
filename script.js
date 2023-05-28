@@ -243,9 +243,9 @@ async function paginationData() {
           let td1 = document.createElement("td");
           td1.innerHTML = `${idData}`;
           let td2 = document.createElement("td");
-          td2.innerHTML = `${emailData}`;
+          td2.innerHTML = `${nameData}`;
           let td3 = document.createElement("td");
-          td3.innerHTML = `${nameData}`;
+          td3.innerHTML = `${emailData}`;
           table_body.append(row);
           row.append(td1, td2, td3);
         }
